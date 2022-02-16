@@ -161,7 +161,8 @@ Useful mentions: \n = new line, \t = tab, \b = backspace
 
 
 ### Conditions
-```if (condition) 
+```
+if (condition) 
 {
     //code executed if true
 } elseif (condition2) {
