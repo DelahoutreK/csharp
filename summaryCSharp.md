@@ -229,11 +229,13 @@ foreach (type variable in array) {
 ```
 
 Note: Break can be applied  to a loop
-Continue, breaks one iteration (example using 188-191: adding if (i==5) {code} will skip 5)
-    ARRAY
+> Continue, breaks one iteration (example using 188-191: adding if (i==5) {code} will skip 5)
+
+### ARRAY
+```
 string[] arrayString = {"string 1","string 2",...};
 int[] arrayInt = {1,2,3,4,5};
-
+```
 //access a specific element in an array 
 Console.WriteLine(arrayString[0]); //outputs your first array value
 
