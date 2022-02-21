@@ -178,7 +178,8 @@ Console.WriteLine(result);
 ```
 
 ### switch condition
-```switch(expression) {
+```
+switch(expression) {
     case 1:     //expression of cases
         //code;
         break;  //stops checking more cases if it fits the initial expression
@@ -236,25 +237,33 @@ Note: Break can be applied  to a loop
 string[] arrayString = {"string 1","string 2",...};
 int[] arrayInt = {1,2,3,4,5};
 ```
-//access a specific element in an array 
+> access a specific element in an array 
+```
 Console.WriteLine(arrayString[0]); //outputs your first array value
+```
 
-//Note: Array values can be redefined as array[n°] = "value";
-//Note: Length can be found using Console.Length
-//Note: Loops and arrays can be combined to show a certain amount of the array
-    //example: string[] brands = {"Square Enix", "Capcom", "Supergiants"};
-    //for (int = 0;i < brands.Length; i++) {
-    //Console.WriteLine(brands[i])};
+Note: Array values can be redefined as array[n°] = "value";
+Note: Length can be found using Console.Length
+Note: Loops and arrays can be combined to show a certain amount of the array
+```
+    example: string[] brands = {"Square Enix", "Capcom", "Supergiants"};
+    for (int = 0;i < brands.Length; i++) {
+    Console.WriteLine(brands[i])};
+```
 
-//Operations/commands on array
+> Operations/commands on array
+```
 Array.Sort(arrayName); //sorts alphabetically
 Console.WriteLine(intName.Max()); //retunrs the max value
-//Note: also min() and Sum()
+```
+Note: also min() and Sum()
 
-//other ways to create arrays
+> other ways to create arrays
+```
 string[] arrayName = new string[n°] {"1","2","3","4"}; //new is the creation of array, n° is the array length
-//Note:array length isn't obliged nor is attributing values to your array, nor the "new" keyword
-//WARNING: declaring an array needs to use NEW to modify/add values
+```
+Note:array length isn't obliged nor is attributing values to your array, nor the "new" keyword
+WARNING: declaring an array needs to use NEW to modify/add values
 
 
 to be continued
